@@ -31,6 +31,7 @@ import {
 } from "@/components/ui/dropdown-menu"
 import { Input } from "@/components/ui/input"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
+import { ModeToggle } from "@/components/ui/ModeToggle"
 
 export default function Dashboard() {
   return (
@@ -198,6 +199,7 @@ export default function Dashboard() {
               </div>
             </form>
           </div>
+          <ModeToggle/>
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <Button variant="secondary" size="icon" className="rounded-full">
